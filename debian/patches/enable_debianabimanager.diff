@@ -1,0 +1,17 @@
+From: Modestas Vainius <modax@debian.org>
+From: Pino Toscano <pino@debian.org>
+Subject: Use DebianABIManager for this source package. It's Debian-specific.
+Forwarded: not-needed
+Last-Update: 2011-10-23
+
+For more information about DebianABIManager, refer to
+/usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -34,3 +34,5 @@
+ 
+ ## Install our datafiles
+ install( FILES data/edict data/kanjidic data/radkfile data/vconj data/romkana.cnv DESTINATION ${DATA_INSTALL_DIR}/kiten)
++
++include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)

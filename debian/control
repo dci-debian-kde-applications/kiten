@@ -1,0 +1,61 @@
+Source: kiten
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.6.5),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.6)
+Standards-Version: 3.9.2
+Homepage: http://edu.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kiten.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kiten.git
+
+Package: kiten
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sazanami-gothic | ttf-sazanami-mincho
+Suggests: khelpcenter4
+Description: Japanese reference and study aid for KDE
+ Kiten is a collection of Japanese reference tools and study aids for KDE,
+ including a Japanese/English dictionary, Kanji dictionary, and Kanji quiz.
+ .
+ This package is part of the KDE education module.
+
+Package: libkiten4
+Architecture: any
+Section: libs
+X-Debian-ABI: 0
+Depends: ${shlibs:Depends}, ${misc:Depends}, edict, kanjidic
+Replaces: libkiten1
+Breaks: libkiten1
+Recommends: ttf-kochi-gothic | ttf-kochi-mincho
+Description: libraries for the Kiten Japanese reference and study aid
+ This package contains shared libraries, language data, and resources used by
+ the Kiten Japanese reference and study aid.  Portions of this library,
+ such as dictionary and character lookup widgets, may be useful for other
+ applications.
+ .
+ This package is part of the KDE education module.
+
+Package: libkiten-dev
+Architecture: any
+Section: libdevel
+Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82)
+Description: development files for the Kiten Japanese reference libraries
+ This package contains development files for building software that uses the
+ Kiten Japanese reference libraries.
+ .
+ This package is part of the KDE education module.
+
+Package: kiten-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: ${misc:Depends}, kdebase-runtime-dbg
+Breaks: kdeedu-dbg (<< 4:4.7.2)
+Replaces: kdeedu-dbg (<< 4:4.7.2)
+Suggests: kiten (= ${binary:Version})
+Description: debugging symbols for Kiten
+ This package contains debugging files used to investigate problems with
+ libraries and binaries of Kiten.
+
