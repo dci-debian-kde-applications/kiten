@@ -51,10 +51,10 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kdebase-runtime-dbg
 Breaks: kdeedu-dbg (<< 4:4.7.2)
 Replaces: kdeedu-dbg (<< 4:4.7.2)
-Suggests: kiten (= ${binary:Version})
+Recommends: kiten (= ${binary:Version})
 Description: debugging symbols for Kiten
  This package contains debugging files used to investigate problems with
  libraries and binaries of Kiten.
