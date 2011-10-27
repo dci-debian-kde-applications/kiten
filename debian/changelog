@@ -3,4 +3,10 @@ kiten (4:4.7.2-0r0) UNRELEASED; urgency=low
   * Initial release:
     - fixes memory leaks (Closes: #610534)
 
+  [ Hideki Yamane ]
+  * kiten: update package dependency to adjust for font package renaming
+    and choose suitable Japanese font in these days. (Closes: #642522)
+  * libkiten4: remove "Recommends: ttf-kochi-gothic | ttf-kochi-mincho"
+    since it is unnecessary dependency.
+
  -- Pino Toscano <pino@debian.org>  Sun, 23 Oct 2011 18:07:38 +0200

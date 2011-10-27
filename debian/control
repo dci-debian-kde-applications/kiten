@@ -13,7 +13,7 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kiten.git
 
 Package: kiten
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ttf-sazanami-gothic | ttf-sazanami-mincho
+Depends: ${shlibs:Depends}, ${misc:Depends}, fonts-vlgothic | fonts-japanese-gothic
 Suggests: khelpcenter4
 Description: Japanese reference and study aid for KDE
  Kiten is a collection of Japanese reference tools and study aids for KDE,
@@ -28,7 +28,6 @@ X-Debian-ABI: 0
 Depends: ${shlibs:Depends}, ${misc:Depends}, edict, kanjidic
 Replaces: libkiten1
 Breaks: libkiten1
-Recommends: ttf-kochi-gothic | ttf-kochi-mincho
 Description: libraries for the Kiten Japanese reference and study aid
  This package contains shared libraries, language data, and resources used by
  the Kiten Japanese reference and study aid.  Portions of this library,
