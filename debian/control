@@ -50,7 +50,7 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kdebase-runtime-dbg
+Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kde-runtime-dbg
 Breaks: kdeedu-dbg (<< 4:4.7.2)
 Replaces: kdeedu-dbg (<< 4:4.7.2)
 Recommends: kiten (= ${binary:Version})
