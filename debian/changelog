@@ -1,4 +1,4 @@
-kiten (4:4.7.2-0r0) experimental; urgency=low
+kiten (4:4.7.2-1) experimental; urgency=low
 
   * Initial release:
     - fixes memory leaks (Closes: #610534)
