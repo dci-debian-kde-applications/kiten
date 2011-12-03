@@ -1,4 +1,4 @@
-kiten (4:4.7.2-0r0) UNRELEASED; urgency=low
+kiten (4:4.7.2-0r0) experimental; urgency=low
 
   * Initial release:
     - fixes memory leaks (Closes: #610534)
@@ -9,4 +9,4 @@ kiten (4:4.7.2-0r0) UNRELEASED; urgency=low
   * libkiten4: remove "Recommends: ttf-kochi-gothic | ttf-kochi-mincho"
     since it is unnecessary dependency.
 
- -- Pino Toscano <pino@debian.org>  Sun, 23 Oct 2011 18:07:38 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:45:20 -0300
