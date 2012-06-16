@@ -8,6 +8,7 @@ kiten (4:4.8.4-0r1) UNRELEASED; urgency=low
   * Add watch file.
   * Convert copyright to copyright-format v1.0 and update.
   * Refresh patch enable_debianabimanager.diff.
+  * Bump libkiten ABI version to 1 due to changed API/ABI.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 16 Jun 2012 12:20:40 +0200
 

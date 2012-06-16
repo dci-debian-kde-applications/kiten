@@ -22,10 +22,10 @@ Description: Japanese reference and study aid for KDE
  .
  This package is part of the KDE education module.
 
-Package: libkiten4
+Package: libkiten4abi1
 Architecture: any
 Section: libs
-X-Debian-ABI: 0
+X-Debian-ABI: 1
 Depends: ${shlibs:Depends}, ${misc:Depends}, edict, kanjidic
 Replaces: libkiten1
 Breaks: libkiten1
@@ -40,7 +40,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82)
+Depends: libkiten4abi1 (= ${binary:Version}), ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82)
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
@@ -51,7 +51,7 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libkiten4 (= ${binary:Version}), ${misc:Depends}, kde-runtime-dbg
+Depends: libkiten4abi1 (= ${binary:Version}), ${misc:Depends}, kde-runtime-dbg
 Breaks: kdeedu-dbg (<< 4:4.7.2)
 Replaces: kdeedu-dbg (<< 4:4.7.2)
 Recommends: kiten (= ${binary:Version})
