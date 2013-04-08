@@ -1,11 +1,11 @@
-kiten (4:4.10.2-1) UNRELEASED; urgency=low
+kiten (4:4.10.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update uploaders.
   * Bump build-deps.
   * Update install-files.
 
- -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:29:09 +0000
+ -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:33:05 +0000
 
 kiten (4:4.8.4-1) unstable; urgency=low
 
