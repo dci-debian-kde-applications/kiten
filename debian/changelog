@@ -3,6 +3,7 @@ kiten (4:4.10.2-1) UNRELEASED; urgency=low
   * New upstream release.
   * Update uploaders.
   * Bump build-deps.
+  * Update install-files.
 
  -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:29:09 +0000
 

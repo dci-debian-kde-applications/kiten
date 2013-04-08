@@ -3,6 +3,8 @@ usr/bin/kitengen
 usr/bin/kitenkanjibrowser
 usr/bin/kitenradselect
 usr/share/applications/kde4/kiten.desktop
+usr/share/applications/kde4/kitenkanjibrowser.desktop
+usr/share/applications/kde4/kitenradselect.desktop
 usr/share/doc/kde/HTML/en/kiten/
 usr/share/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf
 usr/share/icons/hicolor/128x128/apps/kiten.png
