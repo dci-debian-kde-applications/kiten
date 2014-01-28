@@ -1,6 +1,6 @@
 kiten (4:4.11.3-2) UNRELEASED; urgency=low
 
-  * 
+  * Enable build failures on missing symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 20:47:46 +0100
 

@@ -7,7 +7,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 .PHONY: override_dh_auto_test
 
 override_dh_makeshlibs:
-	$(overridden_command) -V -- -c0
+	$(overridden_command) -V
 
 override_dh_shlibdeps:
 	$(overridden_command) $(patsubst %,-p%,$(filter lib%,$(shell dh_listpackages))) -- -xkde-runtime
