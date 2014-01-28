@@ -5,9 +5,11 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11)
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kiten.git
@@ -15,7 +17,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kiten.git
 
 Package: kiten
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, fonts-vlgothic | fonts-japanese-gothic
+Depends: fonts-vlgothic | fonts-japanese-gothic,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: Japanese reference and study aid for KDE
  Kiten is a collection of Japanese reference tools and study aids for KDE,
@@ -27,7 +31,7 @@ Package: libkiten4abi1
 Architecture: any
 Section: libs
 X-Debian-ABI: 1
-Depends: ${shlibs:Depends}, ${misc:Depends}, edict, kanjidic
+Depends: edict, kanjidic, ${misc:Depends}, ${shlibs:Depends}
 Replaces: libkiten1
 Breaks: libkiten1
 Description: libraries for the Kiten Japanese reference and study aid
@@ -41,7 +45,9 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkiten4abi1 (= ${binary:Version}), ${misc:Depends}, kdelibs5-dev (>= 4:4.0.82)
+Depends: kdelibs5-dev (>= 4:4.0.82),
+         libkiten4abi1 (= ${binary:Version}),
+         ${misc:Depends}
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
@@ -52,11 +58,10 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: libkiten4abi1 (= ${binary:Version}), ${misc:Depends}, kde-runtime-dbg
+Depends: kde-runtime-dbg, libkiten4abi1 (= ${binary:Version}), ${misc:Depends}
 Breaks: kdeedu-dbg (<< 4:4.7.2)
 Replaces: kdeedu-dbg (<< 4:4.7.2)
 Recommends: kiten (= ${binary:Version})
 Description: debugging symbols for Kiten
  This package contains debugging files used to investigate problems with
  libraries and binaries of Kiten.
-
