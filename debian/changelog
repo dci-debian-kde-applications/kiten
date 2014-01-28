@@ -2,6 +2,7 @@ kiten (4:4.11.3-2) UNRELEASED; urgency=low
 
   * Enable build failures on missing symbols.
   * Do not disable an empty test set.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jan 2014 20:47:46 +0100
 
