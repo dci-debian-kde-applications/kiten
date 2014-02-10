@@ -1,0 +1,18 @@
+commit c323d006b4f6a7d402e9f8849547d0671b18df9d
+Author: Maximiliano Curia <maxy@debian.org>
+Date:   Mon Feb 10 15:03:18 2014 +0100
+
+    DictFileKanjidic::doSearch leaks
+
+diff --git a/lib/DictKanjidic/dictfilekanjidic.cpp b/lib/DictKanjidic/dictfilekanjidic.cpp
+index 24ecea5..55e9eeb 100644
+--- a/lib/DictKanjidic/dictfilekanjidic.cpp
++++ b/lib/DictKanjidic/dictfilekanjidic.cpp
+@@ -139,6 +139,7 @@ EntryList* DictFileKanjidic::doSearch( const DictQuery &query )
+       {
+         results->append( entry );
+       }
++      else delete entry;
+     }
+   }
+ 
