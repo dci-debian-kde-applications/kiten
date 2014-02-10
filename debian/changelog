@@ -1,4 +1,4 @@
-kiten (4:4.12.2-1) UNRELEASED; urgency=low
+kiten (4:4.12.2-1) experimental; urgency=low
 
   * Enable build failures on missing symbols.
   * Do not disable an empty test set.
@@ -7,7 +7,7 @@ kiten (4:4.12.2-1) UNRELEASED; urgency=low
   * New upstream release.
   * Bump kde-sc-dev-latest build dependency.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 22:19:50 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:31:30 +0100
 
 kiten (4:4.11.3-1) unstable; urgency=low
 
