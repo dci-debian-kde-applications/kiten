@@ -1,0 +1,22 @@
+commit 32f1f80e4a98fb147aaa1be0f47911e6871ac7ed
+Author: Maximiliano Curia <maxy@debian.org>
+Date:   Mon Feb 10 15:25:42 2014 +0100
+
+    KanjiBrowser::loadKanji leaks
+
+diff --git a/kanjibrowser/kanjibrowser.cpp b/kanjibrowser/kanjibrowser.cpp
+index bc932a9..79f7a02 100644
+--- a/kanjibrowser/kanjibrowser.cpp
++++ b/kanjibrowser/kanjibrowser.cpp
+@@ -62,7 +62,10 @@ KanjiBrowser::KanjiBrowser()
+ 
+ KanjiBrowser::~KanjiBrowser()
+ {
+-
++  if( _dictFileKanjidic )
++  {
++    delete _dictFileKanjidic;
++  }
+ }
+ 
+ void KanjiBrowser::changeStatusBar( const QString &text )
