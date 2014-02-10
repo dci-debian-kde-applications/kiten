@@ -1,10 +1,9 @@
-kiten (4:4.12.2-1) UNRELEASED; urgency=low
+kiten (4:4.11.3-2~) UNRELEASED; urgency=low
 
   * Enable build failures on missing symbols.
   * Do not disable an empty test set.
   * Bump Standards-Version to 3.9.5, no changes needed.
   * Add abi-compliance-checker info.
-  * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:02:56 +0100
 
