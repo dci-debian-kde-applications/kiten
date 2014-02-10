@@ -1,0 +1,37 @@
+commit 5b5cf8de24231ec1fb8a49178676b28e643e3282
+Author: Maximiliano Curia <maxy@debian.org>
+Date:   Mon Feb 10 13:28:27 2014 +0100
+
+    Deinflection::search leaks
+
+diff --git a/lib/DictEdict/deinflection.cpp b/lib/DictEdict/deinflection.cpp
+index 62d0925..2679dd0 100644
+--- a/lib/DictEdict/deinflection.cpp
++++ b/lib/DictEdict/deinflection.cpp
+@@ -98,6 +98,7 @@ EntryList* Deinflection::search( const DictQuery &query, const QVector<QString>
+         matched = true;
+       }
+     }
++    if (! matched) delete entry;
+   }
+ 
+   EntryList *results = new EntryList();
+@@ -113,6 +114,9 @@ EntryList* Deinflection::search( const DictQuery &query, const QVector<QString>
+ 
+       if( text.isEmpty() )
+       {
++        entries->deleteAll();
++        delete entries;
++        delete results;
+         return NULL;
+       }
+     }
+@@ -153,7 +157,7 @@ EntryList* Deinflection::search( const DictQuery &query, const QVector<QString>
+       }
+     }
+   }
+-
++  delete entries;
+   return results;
+ }
+ 
