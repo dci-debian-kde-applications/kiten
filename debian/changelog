@@ -1,6 +1,7 @@
 kiten (4:4.12.4-1~1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * New patch: remove_skip_codes (Closes: #741219)
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 12 Apr 2014 20:59:16 +0200
 
