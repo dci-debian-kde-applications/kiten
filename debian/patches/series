@@ -1,6 +1,2 @@
 enable_debianabimanager.diff
-kiten_deinflection_search_leaks
-kiten_kanjibrowser_loadkanji_leaks
-kiten_radicalfile_loadradicalfile_leaks
-kiten_dictfilekanjidic_dosearch_leaks
-kiten_dictfileedict_dosearch_leaks
+remove_skip_codes
