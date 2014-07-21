@@ -1,9 +1,9 @@
-kiten (4:4.13.3-1) UNRELEASED; urgency=medium
+kiten (4:4.13.3-1) unstable; urgency=medium
 
   * New upstream release.
   * Add menu file. (Closes: #589309)
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Jul 2014 12:52:53 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Jul 2014 13:24:18 +0200
 
 kiten (4:4.13.1-1) unstable; urgency=medium
 
