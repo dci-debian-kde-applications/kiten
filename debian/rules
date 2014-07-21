@@ -4,6 +4,13 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/2/library-packages.mk
 
+override_dh_auto_build:
+	$(overridden_command)
+	# Generate icons
+	while read src dest args; do \
+	    convert $$args $(CURDIR)/$$src $(CURDIR)/$$dest; \
+	done <debian/icon-list
+
 override_dh_makeshlibs:
 	$(overridden_command) -V
 

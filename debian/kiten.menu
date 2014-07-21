@@ -1,0 +1,7 @@
+?package(kiten):\
+	needs="x11"\
+	section="Applications/Text"\
+	hints="KDE"\
+	title="Kiten"\
+        icon32x32="/usr/share/pixmaps/kiten.xpm" \
+	command="/usr/bin/kiten"
