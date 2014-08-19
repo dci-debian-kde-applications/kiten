@@ -7,9 +7,11 @@ Last-Update: 2012-06-16
 For more information about DebianABIManager, refer to
 /usr/share/doc/pkg-kde-tools/README.DebianABIManager (pkg-kde-tools (>= 0.12)).
 
---- a/CMakeLists.txt
-+++ b/CMakeLists.txt
-@@ -36,3 +36,5 @@ install( TARGETS kitengen ${INSTALL_TARG
+Index: kiten/CMakeLists.txt
+===================================================================
+--- kiten.orig/CMakeLists.txt	2014-08-19 23:14:39.142352102 +0200
++++ kiten/CMakeLists.txt	2014-08-19 23:14:39.138352266 +0200
+@@ -37,3 +37,5 @@
  
  ## Install our datafiles
  install( FILES data/edict data/kanjidic data/radkfile data/vconj data/romkana.cnv DESTINATION ${DATA_INSTALL_DIR}/kiten )
