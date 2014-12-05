@@ -21,7 +21,7 @@ Architecture: any
 Depends: fonts-vlgothic | fonts-japanese-gothic,
          ${misc:Depends},
          ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: Japanese reference and study aid for KDE
  Kiten is a collection of Japanese reference tools and study aids for KDE,
  including a Japanese/English dictionary, Kanji dictionary, and Kanji quiz.
