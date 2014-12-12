@@ -9,7 +9,7 @@ Build-Depends: cmake,
                debhelper (>= 9),
                imagemagick,
                kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev (>= 4:4.11),
+               kdelibs5-dev (>= 4:14.12.0),
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.5
 Homepage: http://edu.kde.org/
@@ -46,7 +46,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev (>= 4:4.0.82),
+Depends: kdelibs5-dev (>= 4:14.12.0),
          libkiten4abi1 (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for the Kiten Japanese reference libraries
