@@ -25,12 +25,12 @@ kiten (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kiten (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, remaining changes: 
-   - Minor adjustment to copyright so lintian picks up 
+  * Debian merge, remaining changes:
+   - Minor adjustment to copyright so lintian picks up
      shortname for EDRDG
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 25 Nov 2014 21:31:49 +0000
@@ -38,7 +38,7 @@ kiten (4:14.11.95-0ubuntu1) vivid; urgency=medium
 kiten (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Minor adjustment to copyright so lintian picks up shortname for EDRDG. 
+  * Minor adjustment to copyright so lintian picks up shortname for EDRDG.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 05:29:03 -0700
 
@@ -366,7 +366,7 @@ kiten (4:4.9.1-0ubuntu1) quantal; urgency=low
   * New upstream release
 
   [ Philip Muškovac ]
-  * Change soname from 4.9.0 to 4.9.* 
+  * Change soname from 4.9.0 to 4.9.*
   * update kiten.install
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:33:26 +0530
@@ -420,7 +420,7 @@ kiten (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kiten (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 20:32:09 +0100
 
@@ -467,8 +467,8 @@ kiten (4:4.7.4-2) unstable; urgency=low
 
 kiten (4:4.7.4-1) experimental; urgency=low
 
-  * New upstream release. 
-  
+  * New upstream release.
+
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.7.4.
   * Add myself to Uploaders.
@@ -541,4 +541,3 @@ kiten (4:4.6.90+repack-0ubuntu1) oneiric; urgency=low
   * Drop unused lintian override.
 
  -- Harald Sitter <apachelogger@ubuntu.com>  Sun, 10 Jul 2011 11:23:47 +0200
-
