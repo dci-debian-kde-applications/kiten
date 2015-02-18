@@ -2,6 +2,7 @@ kiten (4:14.12.2-1~) UNRELEASED; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * New patch: avoid_installing_incomplete_header
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 19:50:03 +0100
 

@@ -1,0 +1,12 @@
+Index: kiten/lib/CMakeLists.txt
+===================================================================
+--- kiten.orig/lib/CMakeLists.txt	2015-02-18 21:42:48.410382828 +0100
++++ kiten/lib/CMakeLists.txt	2015-02-18 22:25:24.907688122 +0100
+@@ -39,7 +39,6 @@
+ 	  DESTINATION ${INCLUDE_INSTALL_DIR}/libkiten COMPONENT Devel
+ 		)
+ install(FILES
+-        DictEdict/dictfileedict.h
+         DictEdict/entryedict.h
+         DESTINATION ${INCLUDE_INSTALL_DIR}/libkiten/DictEdict COMPONENT Devel)
+ install(FILES
