@@ -1,10 +1,10 @@
-kiten (4:14.12.2-1~) UNRELEASED; urgency=medium
+kiten (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * New patch: avoid_installing_incomplete_header
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 19:50:03 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 10:18:01 +0100
 
 kiten (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
