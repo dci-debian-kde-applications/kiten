@@ -1,8 +1,8 @@
 Index: kiten/lib/CMakeLists.txt
 ===================================================================
---- kiten.orig/lib/CMakeLists.txt	2015-02-18 21:42:48.410382828 +0100
-+++ kiten/lib/CMakeLists.txt	2015-02-18 22:25:24.907688122 +0100
-@@ -39,7 +39,6 @@
+--- kiten.orig/lib/CMakeLists.txt	2015-02-19 10:06:37.152403543 +0100
++++ kiten/lib/CMakeLists.txt	2015-02-19 10:07:00.727460940 +0100
+@@ -39,10 +39,8 @@
  	  DESTINATION ${INCLUDE_INSTALL_DIR}/libkiten COMPONENT Devel
  		)
  install(FILES
@@ -10,3 +10,6 @@ Index: kiten/lib/CMakeLists.txt
          DictEdict/entryedict.h
          DESTINATION ${INCLUDE_INSTALL_DIR}/libkiten/DictEdict COMPONENT Devel)
  install(FILES
+-        DictKanjidic/dictfilekanjidic.h
+         DictKanjidic/entrykanjidic.h
+         DESTINATION ${INCLUDE_INSTALL_DIR}/libkiten/DictKanjidic COMPONENT Devel)
