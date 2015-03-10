@@ -1,0 +1,4 @@
+kiten: binary-without-manpage usr/bin/kiten
+kiten: binary-without-manpage usr/bin/kitengen
+kiten: binary-without-manpage usr/bin/kitenkanjibrowser
+kiten: binary-without-manpage usr/bin/kitenradselect

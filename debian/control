@@ -7,10 +7,40 @@ Uploaders: Pino Toscano <pino@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               imagemagick,
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
-               pkg-kde-tools (>= 0.12)
+               extra-cmake-modules,
+               gettext,
+               kdoctools-dev,
+               kio-dev,
+               libkf5archive-dev,
+               libkf5attica-dev,
+               libkf5auth-dev,
+               libkf5bookmarks-dev,
+               libkf5codecs-dev,
+               libkf5completion-dev,
+               libkf5config-dev,
+               libkf5configwidgets-dev,
+               libkf5coreaddons-dev,
+               libkf5dbusaddons-dev,
+               libkf5globalaccel-dev,
+               libkf5guiaddons-dev,
+               libkf5i18n-dev,
+               libkf5iconthemes-dev,
+               libkf5itemviews-dev,
+               libkf5jobwidgets-dev,
+               libkf5khtml-dev,
+               libkf5kjs-dev,
+               libkf5notifications-dev,
+               libkf5parts-dev,
+               libkf5service-dev,
+               libkf5solid-dev,
+               libkf5sonnet-dev,
+               libkf5textwidgets-dev,
+               libkf5wallet-dev,
+               libkf5widgetsaddons-dev,
+               libkf5windowsystem-dev,
+               libkf5xmlgui-dev,
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
@@ -29,13 +59,10 @@ Description: Japanese reference and study aid for KDE
  .
  This package is part of the KDE education module.
 
-Package: libkiten4abi1
+Package: libkiten5
 Architecture: any
 Section: libs
-X-Debian-ABI: 1
 Depends: edict, kanjidic, ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkiten1
-Breaks: libkiten1
 Description: libraries for the Kiten Japanese reference and study aid
  This package contains shared libraries, language data, and resources used by
  the Kiten Japanese reference and study aid.  Portions of this library,
@@ -47,9 +74,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev,
-         libkiten4abi1 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: libkiten5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
@@ -60,10 +85,8 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: kde-runtime-dbg, libkiten4abi1 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.7.2)
-Replaces: kdeedu-dbg (<< 4:4.7.2)
-Recommends: kiten (= ${binary:Version})
+Depends: kiten(= ${binary:Version}) | libkiten5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: debugging symbols for Kiten
  This package contains debugging files used to investigate problems with
  libraries and binaries of Kiten.

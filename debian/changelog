@@ -1,3 +1,9 @@
+kiten (4:15.03.80-0ubuntu1) UNRELEASED; urgency=medium
+
+  * KDE Frameworks 5 port
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Mar 2015 13:58:22 +0100
+
 kiten (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
