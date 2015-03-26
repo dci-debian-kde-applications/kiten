@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.4.5~),
                debhelper (>= 9),
                imagemagick,
                kde-sc-dev-latest (>= 4:4.12),
@@ -47,9 +47,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev,
-         libkiten4abi1 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: kdelibs5-dev, libkiten4abi1 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
