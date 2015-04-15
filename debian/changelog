@@ -1,8 +1,12 @@
-kiten (4:15.03.80-0ubuntu1) UNRELEASED; urgency=medium
+kiten (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Harald Sitter ]
   * KDE Frameworks 5 port
 
- -- Harald Sitter <sitter@kde.org>  Tue, 10 Mar 2015 13:58:22 +0100
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 11:57:07 -0700
 
 kiten (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
