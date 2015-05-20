@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:14.12.3 hppa
 libkiten.so.4abi1 libkiten4abi1 #MINVER#
 * Build-Depends-Package: libkiten-dev
  ABI_4_1@ABI_4_1 4:4.8.4
@@ -7,9 +7,9 @@ libkiten.so.4abi1 libkiten4abi1 #MINVER#
  _ZN10EntryEdictC1ERK7QStringS2_@ABI_4_1 4:4.8.4
  _ZN10EntryEdictC2ERK7QString@ABI_4_1 4:4.8.4
  _ZN10EntryEdictC2ERK7QStringS2_@ABI_4_1 4:4.8.4
- _ZN10EntryEdictD0Ev@ABI_4_1 4:4.8.4
- _ZN10EntryEdictD1Ev@ABI_4_1 4:4.8.4
- _ZN10EntryEdictD2Ev@ABI_4_1 4:4.8.4
+ (optional=gccinternal|arch=!hppa)_ZN10EntryEdictD0Ev@ABI_4_1 4:4.8.4
+ (optional=gccinternal|arch=!hppa)_ZN10EntryEdictD1Ev@ABI_4_1 4:4.8.4
+ (optional=gccinternal|arch=!hppa)_ZN10EntryEdictD2Ev@ABI_4_1 4:4.8.4
  _ZN13DictFileEdict10validQueryERK9DictQuery@ABI_4_1 4:4.8.4
  _ZN13DictFileEdict12loadListTypeEP19KConfigSkeletonItemP11QStringListRK4QMapI7QStringS5_E@ABI_4_1 4:4.8.4
  _ZN13DictFileEdict12loadSettingsEP15KConfigSkeleton@ABI_4_1 4:4.8.4
@@ -34,9 +34,9 @@ libkiten.so.4abi1 libkiten4abi1 #MINVER#
  _ZN13EntryKanjidicC2ERK7QString@ABI_4_1 4:4.8.4
  _ZN13EntryKanjidicC2ERK7QStringS2_@ABI_4_1 4:4.8.4
  _ZN13EntryKanjidicC2ERKS_@ABI_4_1 4:4.8.4
- _ZN13EntryKanjidicD0Ev@ABI_4_1 4:4.8.4
- _ZN13EntryKanjidicD1Ev@ABI_4_1 4:4.8.4
- _ZN13EntryKanjidicD2Ev@ABI_4_1 4:4.8.4
+ (optional=gccinternal|arch=!hppa)_ZN13EntryKanjidicD0Ev@ABI_4_1 4:4.8.4
+ (optional=gccinternal|arch=!hppa)_ZN13EntryKanjidicD1Ev@ABI_4_1 4:4.8.4
+ (optional=gccinternal|arch=!hppa)_ZN13EntryKanjidicD2Ev@ABI_4_1 4:4.8.4
  _ZN14HistoryPtrList10setCurrentEi@ABI_4_1 4:4.8.4
  _ZN14HistoryPtrList12toStringListEv@ABI_4_1 4:4.8.4
  _ZN14HistoryPtrList16toStringListNextEv@ABI_4_1 4:4.8.4
