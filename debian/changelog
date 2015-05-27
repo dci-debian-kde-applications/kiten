@@ -6,8 +6,9 @@ kiten (4:15.04.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream release
   * New upstream release
+  * Vivid backport
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 13 May 2015 22:03:56 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 27 May 2015 08:43:35 -0700
 
 kiten (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
