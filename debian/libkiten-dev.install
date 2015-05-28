@@ -1,2 +1,2 @@
 usr/include/libkiten/
-usr/lib/libkiten.so
+usr/lib/*/libkiten.so

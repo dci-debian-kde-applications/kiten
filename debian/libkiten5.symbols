@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4:14.12.3 hppa
-libkiten.so.4abi1 libkiten4abi1 #MINVER#
+libkiten.so.5 libkiten5 #MINVER#
 * Build-Depends-Package: libkiten-dev
  ABI_4_1@ABI_4_1 4:4.8.4
  _ZN10EntryEdict9loadEntryERK7QString@ABI_4_1 4:4.8.4

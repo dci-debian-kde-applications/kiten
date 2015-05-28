@@ -9,8 +9,6 @@ Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules,
                imagemagick,
-               kde-sc-dev-latest (>= 4:4.12),
-               kdelibs5-dev,
                kdoctools-dev,
                libkf5archive-dev,
                libkf5completion-dev,
@@ -20,7 +18,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5i18n-dev,
                libkf5khtml-dev,
                libkf5xmlgui-dev,
-               pkg-kde-tools (>= 0.12),
+               pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 XS-Testsuite: autopkgtest
@@ -40,13 +38,10 @@ Description: Japanese reference and study aid for KDE
  .
  This package is part of the KDE education module.
 
-Package: libkiten4abi1
+Package: libkiten5
 Architecture: any
 Section: libs
-X-Debian-ABI: 1
 Depends: edict, kanjidic, ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkiten1
-Breaks: libkiten1
 Description: libraries for the Kiten Japanese reference and study aid
  This package contains shared libraries, language data, and resources used by
  the Kiten Japanese reference and study aid.  Portions of this library,
@@ -58,7 +53,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs5-dev, libkiten4abi1 (= ${binary:Version}), ${misc:Depends}
+Depends: libkiten5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
@@ -69,10 +64,7 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: kde-runtime-dbg, libkiten4abi1 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeedu-dbg (<< 4:4.7.2)
-Replaces: kdeedu-dbg (<< 4:4.7.2)
-Recommends: kiten (= ${binary:Version})
+Depends: kiten (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for Kiten
  This package contains debugging files used to investigate problems with
  libraries and binaries of Kiten.

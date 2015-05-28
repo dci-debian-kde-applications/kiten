@@ -1,3 +1,2 @@
-enable_debianabimanager.diff
 remove_skip_codes
 avoid_installing_incomplete_header
