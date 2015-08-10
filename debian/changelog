@@ -1,4 +1,4 @@
-kiten (4:15.04.3-1~) UNRELEASED; urgency=medium
+kiten (4:15.04.3-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
@@ -7,7 +7,7 @@ kiten (4:15.04.3-1~) UNRELEASED; urgency=medium
   * Update symbols files. (Closes: #777927)
   * Add missing dev dependency (thanks to acc headers check)
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:13:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 16:56:32 +0200
 
 kiten (4:14.12.3-1) experimental; urgency=medium
 
