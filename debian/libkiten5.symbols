@@ -1,13 +1,13 @@
-# SymbolsHelper-Confirmed: 4:15.03.80 amd64
+# SymbolsHelper-Confirmed: 4:15.04.2 amd64
 libkiten.so.5 libkiten5 #MINVER#
  _ZN10EntryEdict9loadEntryERK7QString@Base 4:15.03.80
  _ZN10EntryEdictC1ERK7QString@Base 4:15.03.80
  _ZN10EntryEdictC1ERK7QStringS2_@Base 4:15.03.80
  _ZN10EntryEdictC2ERK7QString@Base 4:15.03.80
  _ZN10EntryEdictC2ERK7QStringS2_@Base 4:15.03.80
- _ZN10EntryEdictD0Ev@Base 4:15.03.80
- _ZN10EntryEdictD1Ev@Base 4:15.03.80
- _ZN10EntryEdictD2Ev@Base 4:15.03.80
+ (optional)_ZN10EntryEdictD0Ev@Base 4:15.03.80
+ (optional)_ZN10EntryEdictD1Ev@Base 4:15.03.80
+ (optional)_ZN10EntryEdictD2Ev@Base 4:15.03.80
  _ZN13DictFileEdict10validQueryERK9DictQuery@Base 4:15.03.80
  _ZN13DictFileEdict12loadListTypeEP19KConfigSkeletonItemP11QStringListRK4QMapI7QStringS5_E@Base 4:15.03.80
  _ZN13DictFileEdict12loadSettingsEP15KConfigSkeleton@Base 4:15.03.80
@@ -32,9 +32,9 @@ libkiten.so.5 libkiten5 #MINVER#
  _ZN13EntryKanjidicC2ERK7QString@Base 4:15.03.80
  _ZN13EntryKanjidicC2ERK7QStringS2_@Base 4:15.03.80
  _ZN13EntryKanjidicC2ERKS_@Base 4:15.03.80
- _ZN13EntryKanjidicD0Ev@Base 4:15.03.80
- _ZN13EntryKanjidicD1Ev@Base 4:15.03.80
- _ZN13EntryKanjidicD2Ev@Base 4:15.03.80
+ (optional)_ZN13EntryKanjidicD0Ev@Base 4:15.03.80
+ (optional)_ZN13EntryKanjidicD1Ev@Base 4:15.03.80
+ (optional)_ZN13EntryKanjidicD2Ev@Base 4:15.03.80
  _ZN14HistoryPtrList10setCurrentEi@Base 4:15.03.80
  _ZN14HistoryPtrList12toStringListEv@Base 4:15.03.80
  _ZN14HistoryPtrList16toStringListNextEv@Base 4:15.03.80

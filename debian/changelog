@@ -1,3 +1,11 @@
+kiten (4:15.04.2-0ubuntu1.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Update symbols files: mark as optional the symbols gone after
+    building wih GCC 5
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 24 Jul 2015 13:18:40 +0200
+
 kiten (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Harald Sitter ]
