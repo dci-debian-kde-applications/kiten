@@ -1,10 +1,14 @@
-kiten (4:15.04.2-0ubuntu1.1) UNRELEASED; urgency=medium
+kiten (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
   * Non-maintainer upload.
   * Update symbols files: mark as optional the symbols gone after
     building wih GCC 5
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 24 Jul 2015 13:18:40 +0200
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:19:10 +0100
 
 kiten (4:15.04.2-0ubuntu1) wily; urgency=medium
 
