@@ -1,4 +1,4 @@
-kiten (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+kiten (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Non-maintainer upload.
@@ -8,7 +8,7 @@ kiten (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 11:19:10 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:29:53 +0100
 
 kiten (4:15.04.2-0ubuntu1) wily; urgency=medium
 
