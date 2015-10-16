@@ -1,6 +1,7 @@
 kiten (4:15.08.2-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.08.2).
+  * Update symbols files from buildds logs (4:15.08.0-1).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Oct 2015 15:19:05 +0200
 
