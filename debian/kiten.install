@@ -4,7 +4,6 @@ usr/bin/kitengen
 usr/bin/kitenkanjibrowser
 usr/bin/kitenradselect
 usr/share/appdata/kiten.appdata.xml
-usr/share/applications/kitenradselect.desktop
 usr/share/applications/org.kde.kiten.desktop
 usr/share/applications/org.kde.kitenkanjibrowser.desktop
 usr/share/config.kcfg/kiten.kcfg
