@@ -62,12 +62,3 @@ Description: development files for the Kiten Japanese reference libraries
  Kiten Japanese reference libraries.
  .
  This package is part of the KDE education module.
-
-Package: kiten-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kiten (= ${binary:Version}), ${misc:Depends}
-Description: debugging symbols for Kiten
- This package contains debugging files used to investigate problems with
- libraries and binaries of Kiten.
