@@ -1,8 +1,33 @@
-kiten (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kiten (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Clive Johnston ]
   * New upstream release
 
+  [ Scarlett Clark ]
+  * Debian merge: No remaining changes.
+  * New upstream release.
+
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:59:05 +0000
+
+kiten (4:15.12.0-1~) UNRELEASED; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 16 Dec 2015 16:09:28 +0100
+
+kiten (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:38:34 +0100
+
+kiten (4:15.08.2-1) unstable; urgency=medium
+
+  * New upstream release (15.08.2).
+  * Update symbols files from buildds logs (4:15.08.0-1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 16 Oct 2015 08:06:47 +0200
 
 kiten (4:15.08.2-0ubuntu2) xenial; urgency=medium
 
@@ -23,6 +48,12 @@ kiten (4:15.08.1-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 17:04:29 +0100
 
+kiten (4:15.08.0-1) unstable; urgency=medium
+
+  * New upstream release (15.08.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 20:00:31 +0200
+
 kiten (4:15.08.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
@@ -41,6 +72,17 @@ kiten (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:29:53 +0100
 
+kiten (4:15.04.3-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0).
+  * New upstream release (15.04.1).
+  * Update symbols files from buildds logs (4:14.12.3-1).
+  * New upstream release (15.04.3).
+  * Update symbols files. (Closes: #777927)
+  * Add missing dev dependency (thanks to acc headers check)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Aug 2015 16:56:32 +0200
+
 kiten (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Harald Sitter ]
@@ -55,6 +97,12 @@ kiten (4:15.04.2-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 19:07:04 +0200
+
+kiten (4:14.12.3-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:01 +0200
 
 kiten (4:14.12.3-0ubuntu1) vivid; urgency=medium
 

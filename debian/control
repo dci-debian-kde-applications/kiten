@@ -5,46 +5,23 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>,
            Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
-               gettext,
+               extra-cmake-modules (>= 5),
                imagemagick,
                kdoctools-dev,
-               kio-dev,
                libkf5archive-dev,
-               libkf5attica-dev,
-               libkf5auth-dev,
-               libkf5bookmarks-dev,
-               libkf5codecs-dev,
                libkf5completion-dev,
                libkf5config-dev,
                libkf5configwidgets-dev,
                libkf5coreaddons-dev,
                libkf5crash-dev,
-               libkf5dbusaddons-dev,
-               libkf5globalaccel-dev,
-               libkf5guiaddons-dev,
                libkf5i18n-dev,
-               libkf5iconthemes-dev,
-               libkf5itemviews-dev,
-               libkf5jobwidgets-dev,
                libkf5khtml-dev,
-               libkf5kjs-dev,
-               libkf5notifications-dev,
-               libkf5parts-dev,
-               libkf5service-dev,
-               libkf5solid-dev,
-               libkf5sonnet-dev,
-               libkf5textwidgets-dev,
-               libkf5wallet-dev,
-               libkf5widgetsaddons-dev,
-               libkf5windowsystem-dev,
                libkf5xmlgui-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
-XS-Testsuite: autopkgtest
 Homepage: http://edu.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/applications/kiten.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/applications/kiten.git
@@ -76,7 +53,10 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkiten5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5completion-dev,
+         libkiten5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4),
+         ${misc:Depends}
 Description: development files for the Kiten Japanese reference libraries
  This package contains development files for building software that uses the
  Kiten Japanese reference libraries.
@@ -87,8 +67,7 @@ Package: kiten-dbg
 Architecture: any
 Section: debug
 Priority: extra
-Depends: kiten(= ${binary:Version}) | libkiten5 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: kiten (= ${binary:Version}), ${misc:Depends}
 Description: debugging symbols for Kiten
  This package contains debugging files used to investigate problems with
  libraries and binaries of Kiten.
