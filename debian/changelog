@@ -6,6 +6,8 @@ kiten (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Debian merge: No remaining changes.
   * New upstream release.
+  * Remove kiten.menu as kiten is called from desktop file.
+    Per lintain rule command-in-menu-file-and-desktop-file. 
 
  -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 13:59:05 +0000
 
