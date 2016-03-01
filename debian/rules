@@ -5,4 +5,4 @@ libpkgs_gen_strict_local_shlibs = $(libpkgs_all_packages)
 include /usr/share/pkg-kde-tools/qt-kde-team/3/library-packages.mk
 
 override_dh_strip:
-	$(overridden_command) --ddeb-migration='kiten-dbg (<= 4:15.12.1-1~~)'
+	$(overridden_command) --dbgsym-migration='kiten-dbg (<= 4:15.12.1-1~~)'
