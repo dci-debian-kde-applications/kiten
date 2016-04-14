@@ -1,3 +1,11 @@
+kiten (4:15.12.1-2~1.gbp44202a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @44202a545de6dfe0a32c2fc30f99d26470fa3046 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 14:27:22 +0200
+
 kiten (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
