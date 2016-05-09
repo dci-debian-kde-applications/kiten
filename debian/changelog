@@ -1,12 +1,21 @@
-kiten (4:16.04.0-1~1.gbp39cdb4) UNRELEASED; urgency=medium
+kiten (4:16.04.0-1~2.gbpa580ba) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a580baf598bd5c89d1c6c952d36f54c528eb812d **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @39cdb42187532c72e0038e99b992f3cb22e52a0d **
 
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:09:01 +0200
+  [ Maximiliano Curia ]
+  * Remove menu file and friends
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:16:11 +0200
 
 kiten (4:15.12.1-1) experimental; urgency=medium
 
