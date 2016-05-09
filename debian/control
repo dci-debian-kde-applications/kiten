@@ -8,19 +8,20 @@ Uploaders: Pino Toscano <pino@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5),
-               kdoctools-dev,
-               libkf5archive-dev,
-               libkf5completion-dev,
-               libkf5config-dev,
-               libkf5configwidgets-dev,
-               libkf5coreaddons-dev,
-               libkf5crash-dev,
-               libkf5i18n-dev,
-               libkf5khtml-dev,
-               libkf5xmlgui-dev,
+               imagemagick,
+               kdoctools-dev (>= 5.15~),
+               libkf5archive-dev (>= 5.15~),
+               libkf5completion-dev (>= 5.15~),
+               libkf5config-dev (>= 5.15~),
+               libkf5configwidgets-dev (>= 5.15~),
+               libkf5coreaddons-dev (>= 5.15~),
+               libkf5crash-dev (>= 5.15~),
+               libkf5i18n-dev (>= 5.15~),
+               libkf5khtml-dev (>= 5.15~),
+               libkf5xmlgui-dev (>= 5.15~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kiten.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kiten.git
@@ -52,7 +53,7 @@ Description: libraries for the Kiten Japanese reference and study aid
 Package: libkiten-dev
 Architecture: any
 Section: libdevel
-Depends: libkf5completion-dev,
+Depends: libkf5completion-dev (>= 5.15~),
          libkiten5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends}

@@ -1,3 +1,13 @@
+kiten (4:16.04.0-1~1.gbp39cdb4) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @39cdb42187532c72e0038e99b992f3cb22e52a0d **
+
+  * Bump Standards-Version to 3.9.8
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 04:09:01 +0200
+
 kiten (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).

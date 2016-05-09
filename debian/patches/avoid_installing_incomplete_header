@@ -1,8 +1,17 @@
-Index: kiten/lib/CMakeLists.txt
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 04:08:58 +0200
+Subject: avoid_installing_incomplete_header
+
 ===================================================================
---- kiten.orig/lib/CMakeLists.txt	2015-02-19 10:06:37.152403543 +0100
-+++ kiten/lib/CMakeLists.txt	2015-02-19 10:07:00.727460940 +0100
-@@ -39,10 +39,8 @@
+---
+ lib/CMakeLists.txt | 2 --
+ 1 file changed, 2 deletions(-)
+
+diff --git a/lib/CMakeLists.txt b/lib/CMakeLists.txt
+index b8a4cf0..51bfaef 100644
+--- a/lib/CMakeLists.txt
++++ b/lib/CMakeLists.txt
+@@ -49,10 +49,8 @@ install( FILES
  	  DESTINATION ${INCLUDE_INSTALL_DIR}/libkiten COMPONENT Devel
  		)
  install(FILES
