@@ -1,6 +1,6 @@
-kiten (4:16.04.0-1~2.gbpa580ba) UNRELEASED; urgency=medium
+kiten (4:16.04.1-1~1.gbpdcb732) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a580baf598bd5c89d1c6c952d36f54c528eb812d **
+  ** SNAPSHOT build @dcb7326e596da74e5063d2d5a84feb0887503d5d **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @39cdb42187532c72e0038e99b992f3cb22e52a0d **
@@ -14,8 +14,9 @@ kiten (4:16.04.0-1~2.gbpa580ba) UNRELEASED; urgency=medium
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:16:11 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 10 May 2016 22:08:50 +0200
 
 kiten (4:15.12.1-1) experimental; urgency=medium
 
