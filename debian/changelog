@@ -1,10 +1,8 @@
-kiten (4:16.04.2-1~1.gbpac3837) UNRELEASED; urgency=medium
+kiten (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ac3837d0175fd27960a86c90061b0c07e106d9c8 **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:09:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Jun 2016 11:15:33 +0200
 
 kiten (4:16.04.1-1) unstable; urgency=medium
 
