@@ -1,3 +1,11 @@
+kiten (4:16.08.0-1~1.gbp851be5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @851be5de935194ab4b3e0da94007b996f4c9e318 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:08:59 +0200
+
 kiten (4:16.04.2-1) unstable; urgency=medium
 
   * New upstream release.
