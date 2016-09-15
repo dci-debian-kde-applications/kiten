@@ -2,7 +2,7 @@ usr/bin/kiten
 usr/bin/kitengen
 usr/bin/kitenkanjibrowser
 usr/bin/kitenradselect
-usr/share/*/kiten.appdata.xml
+usr/share/*/org.kde.kiten.appdata.xml
 usr/share/applications/org.kde.kiten*.desktop
 usr/share/config.kcfg/kiten.kcfg
 usr/share/doc/HTML/en/kiten/
