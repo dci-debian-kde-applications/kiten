@@ -1,10 +1,16 @@
-kiten (4:16.08.0-1~1.gbp851be5) UNRELEASED; urgency=medium
+kiten (4:16.08.2-1~1.gbp5d32a3) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @5d32a38a1b04bdc3852073f1af2d30c418c9936c **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @851be5de935194ab4b3e0da94007b996f4c9e318 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:08:59 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 22:09:20 +0200
 
 kiten (4:16.04.2-1) unstable; urgency=medium
 
