@@ -1,17 +1,13 @@
-kiten (4:16.08.2-1~2.gbpa07587) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a07587c24cc813b69f73473dc8510c4357cdf588 **
+kiten (4:16.08.2-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @851be5de935194ab4b3e0da94007b996f4c9e318 **
-
-  * UNRELEASED
+  * New upstream release (16.08.2)
   * Update install files
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 14 Oct 2016 19:40:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:34:51 +0200
 
 kiten (4:16.04.2-1) unstable; urgency=medium
 
