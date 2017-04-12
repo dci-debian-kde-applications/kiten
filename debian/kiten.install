@@ -11,4 +11,5 @@ usr/share/kiten
 usr/share/kxmlgui5/kiten/kitenui.rc
 usr/share/kxmlgui5/kitenkanjibrowser/kanjibrowserui.rc
 usr/share/kxmlgui5/kitenradselect/radselectui.rc
+usr/share/locale/
 usr/share/metainfo/org.kde.kiten.appdata.xml
