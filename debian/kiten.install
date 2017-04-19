@@ -4,7 +4,7 @@ usr/bin/kitenkanjibrowser
 usr/bin/kitenradselect
 usr/share/applications/org.kde.kiten*.desktop
 usr/share/config.kcfg/kiten.kcfg
-usr/share/doc/HTML/en/kiten/
+usr/share/doc/HTML/*/kiten
 usr/share/fonts/kanjistrokeorders/KanjiStrokeOrders.ttf
 usr/share/icons/hicolor/*/apps/kiten.*
 usr/share/kiten
