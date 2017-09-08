@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@debian.org>,
            Sune Vuorela <sune@debian.org>,
-           Maximiliano Curia <maxy@debian.org>
+           Maximiliano Curia <maxy@debian.org>,
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5),
@@ -20,7 +20,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5khtml-dev (>= 5.15~),
                libkf5xmlgui-dev (>= 5.15~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.4)
+               qtbase5-dev (>= 5.4),
 Standards-Version: 4.1.0
 Homepage: http://edu.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kiten.git
@@ -30,13 +30,26 @@ Package: kiten
 Architecture: any
 Depends: fonts-vlgothic | fonts-japanese-gothic,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Suggests: khelpcenter
 Breaks: ${kde-l10n:all}
 Replaces: ${kde-l10n:all}
 Description: Japanese reference and study aid for KDE
  Kiten is a collection of Japanese reference tools and study aids for KDE,
  including a Japanese/English dictionary, Kanji dictionary, and Kanji quiz.
+ .
+ This package is part of the KDE education module.
+
+Package: libkiten-dev
+Architecture: any
+Section: libdevel
+Depends: libkf5completion-dev (>= 5.15~),
+         libkiten5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4),
+         ${misc:Depends},
+Description: development files for the Kiten Japanese reference libraries
+ This package contains development files for building software that uses the
+ Kiten Japanese reference libraries.
  .
  This package is part of the KDE education module.
 
@@ -49,18 +62,5 @@ Description: libraries for the Kiten Japanese reference and study aid
  the Kiten Japanese reference and study aid.  Portions of this library,
  such as dictionary and character lookup widgets, may be useful for other
  applications.
- .
- This package is part of the KDE education module.
-
-Package: libkiten-dev
-Architecture: any
-Section: libdevel
-Depends: libkf5completion-dev (>= 5.15~),
-         libkiten5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.4),
-         ${misc:Depends}
-Description: development files for the Kiten Japanese reference libraries
- This package contains development files for building software that uses the
- Kiten Japanese reference libraries.
  .
  This package is part of the KDE education module.
